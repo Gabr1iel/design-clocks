@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="clocks.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="clocks-wrapper">
+        <div class="border-wrapper"></div>
+        <div class="bar-seconds"></div>
+        <div class="number-hours"></div>
+        <div class="watch-logo">
+            <p>Algone</p>
+            <p>Made with care</p>
+        </div>
+
+        <div class="date"></div>
+        <div class="stopwatch" onclick="stopwatchTime()">
+            <a>
+                <div class="stopwatch-bar"></div>
+                <div class="stopwatch-box">
+                    <div class="stopwatch-hand minute"><i></i><i></i><i></i><i></i></div>
+                    <div class="stopwatch-hand second"><i></i><i></i><i></i><i></i></div>
+                </div>
+            </a>
+        </div>
+
+        <div class="hands-box">
+            <div class="hand hours"><i></i><span></span><p></p></div>
+            <div class="hand minutes"><i></i><p class="first-p"></p><span></span><p class="second-p"></p></div>
+            <div class="hand seconds"><i></i><i></i><p class="first-p"></p><span></span><p class="second-p"></p></div>
+        </div>
+    </div>
+
+    <script src="scripts/clocks.js"></script>
+    
+</body>
+</html>
